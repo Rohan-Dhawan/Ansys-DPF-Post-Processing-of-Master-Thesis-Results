@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# ANSYS heavy FEA output files
+*.rst
+*.db
+*.mnt
+*.log
+*.err
+
+# Output directories
+output/
