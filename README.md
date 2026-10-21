@@ -1,6 +1,6 @@
 # ANSYS DPF Wind Turbine Main Bearing Ring Creep Analysis
 
-An automated Python post-processing pipeline for ANSYS FEA simulation result files (`.rst`). This tool utilizes the ANSYS Data Processing Framework (ANSYS DPF) to extract relative tangential micro-slip between mating sub-assembly components, normalise solver time steps to total shaft rotation angles, and produce publication-quality comparative plots across parameterized bending load conditions.
+An automated Python post-processing pipeline for ANSYS FEA simulation result files (`.rst`). This tool utilizes the ANSYS Data Processing Framework (ANSYS DPF) to extract relative tangential micro-slip between mating sub-assembly components (here coincident nodes), normalise solver time steps to total shaft rotation angles, and produce comparative plots across parameterized bending load conditions.
 
 ---
 
