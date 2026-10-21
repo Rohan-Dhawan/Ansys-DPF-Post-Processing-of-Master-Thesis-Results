@@ -13,6 +13,9 @@ This pipeline programmatically evaluates micro-slip at mating node pairs across 
 ```math
 \Delta u_\theta = u_{\theta, \text{shaft}} - u_{\theta, \text{ring}} = (-u_{x,s}\sin\theta_s + u_{z,s}\cos\theta_s) - (-u_{x,r}\sin\theta_r + u_{z,r}\cos\theta_r)
 ```
+## Workflow & Architecture
+
+```mermaid
 flowchart TD
     A[ANSYS RST Result Files] --> B{ANSYS DPF Installed?}
     B -- Yes --> C[Load DPF Simulation Context]
